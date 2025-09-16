@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Semantic HTML Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    main {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    article {
+      flex: 2;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    aside {
+      flex: 1;
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    figure {
+      margin: 0;
+      text-align: center;
+    }
+
+    figcaption {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Semantic HTML Website</h1>
+    <p>Using semantic tags the right way!</p>
+  </header>
+
+  <nav>
+    <a href="#intro">Intro</a>
+    <a href="#news">News</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <article>
+      <section id="intro">
+        <h2>Welcome</h2>
+        <p>This is a basic website showcasing all HTML5 semantic elements. Semantic HTML makes your site more accessible and meaningful.</p>
+      </section>
+
+      <section id="news">
+        <h2>Latest News</h2>
+        <article>
+          <h3>New Feature Released</h3>
+          <p>We just released a new update to improve performance and user experience.</p>
+        </article>
+        <article>
+          <h3>Upcoming Changes</h3>
+          <p>Stay tuned for our upcoming redesign next month!</p>
+        </article>
+      </section>
+
+      <section id="media">
+        <h2>Photo of the Day</h2>
+        <figure>
+          <img src="https://via.placeholder.com/600x300" alt="Placeholder image">
+          <figcaption>A beautiful view captured during sunset.</figcaption>
+        </figure>
+      </section>
+    </article>
+
+    <aside>
+      <h3>Related Links</h3>
+      <ul>
+        <li><a href="#">HTML5 Guide</a></li>
+        <li><a href="#">CSS Basics</a></li>
+        <li><a href="#">Learn JavaScript</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Semantic Website | Made with ❤️ using HTML5</p>
+  </footer>
+
+</body>
+</html>
